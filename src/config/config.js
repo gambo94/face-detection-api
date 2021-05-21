@@ -1,10 +1,10 @@
 const knex = require('knex')({
     client: 'mysql',
     connection: {
-        host: 'localhost',
-        user: 'root',
-        password: 'junanago94',
-        database: 'face_app'
+        host: 'us-cdbr-east-03.cleardb.com',
+        user: 'be00dc3b353b68',
+        password: '57e6226e',
+        database: 'heroku_b584b1c124b0c6e'
     }
 });
 
